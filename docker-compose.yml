@@ -1,9 +1,0 @@
-version: '2'
-
-services:
-  spark:
-    image: jupyter/pyspark-notebook
-    volumes:
-    - /home/augusto/Desktop/Programar/SparkNotebooks:/home/jovyan
-    ports:
-      - '8888:8888'
